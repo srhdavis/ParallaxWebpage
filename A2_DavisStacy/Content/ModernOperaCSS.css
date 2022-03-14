@@ -1,0 +1,71 @@
+﻿body {
+    color: cornsilk;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Row 1 Header*/
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 14vh;
+    text-shadow: .05em .05em black;
+}
+
+/*Row 3 and 5 Header*/
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 7vh;
+    text-shadow: .05em .05em black;
+}
+
+/*Picture and image descriptions*/
+p {
+    font-size: 1.5vw;
+    text-align: justify;
+    padding: 2em;
+}
+
+/*Main Image 1*/
+#row1 {
+    height: 100vh;
+    background-image: url('../Images/FloridaGrandOpera-Turandot.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Carousel*/
+#row2 {
+    background-color: black;
+    border: inset .2em black;
+}
+
+/*Main Image 2*/
+#row3 {
+    height: 70vh;
+    background-image: url('../Images/PalisGarnierHall.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Video*/
+#row4 {
+    background-color: black;
+    border: inset .2em black;
+}
+
+/*Main Image 3*/
+#row5 {
+    height: 70vh;
+    background-image: url('../Images/PalisGarnierCeiling_widescreen.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*3 equally spaced images*/
+#row6 {
+    background-color: black;
+    border: inset .2em black;
+    padding: 1.5em .5em;
+}
